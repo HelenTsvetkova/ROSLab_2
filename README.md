@@ -13,19 +13,20 @@
 
 ---
 
-1) Предварительно* необходимо построить приближённую карту местности. Для этого нужно запустить построение карты с помощью launch файла:
-
-`roslaunch my_turtlebot3_navigation run_slam.launch`
-
-2) Немного поездить и сохранить карту:
-
-`rosrun map_server map_saver -f ~/ROSLab_2.git/src/my_turtlebot3_navigation/maps/room_map`
-
-3) Далее мы возвращаем всё к изначальному состоянию, как было до 1 и 2 шага и снова запускаем launch файл:
+1) Запускаем симуляцию коммандой:
 
 `roslaunch my_turtlebot3_navigation run_navigation.launch`
 
-4) Указываем цель и смотрим, как робот едет
+2) Можно добавить в rviz следующие топики:
+
+```
+/move\_base/local_costmap/footprint
+/move\_base/local_costmap/costmap
+/move\_base/DWAPlannerROS/local_plan
+/move\_base_simple/goal
+```
 
 
-*пока что алгоритм такой.. 
+3) Указываем цель и смотрим, как робот едет
+
+
