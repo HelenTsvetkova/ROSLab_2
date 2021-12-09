@@ -20,10 +20,10 @@
 2) Можно добавить в rviz следующие топики:
 
 ```
-/move\_base/local_costmap/footprint
-/move\_base/local_costmap/costmap
-/move\_base/DWAPlannerROS/local_plan
-/move\_base_simple/goal
+/move_base/local_costmap/footprint
+/move_base/local_costmap/costmap
+/move_base/DWAPlannerROS/local_plan
+/move_base_simple/goal
 ```
 
 
