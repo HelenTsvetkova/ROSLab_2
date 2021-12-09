@@ -1,13 +1,5 @@
 # ROSLab1
-Сборку можно провести с помощью catkin. Переходим в директорию с исходниками и инициализируем воркспейс:
-
-`cd src`
-
-`catkin_init_workspace`
-
-Потом собираем:
-
-`cd ..`
+Сборку можно провести с помощью catkin:
 
 `catkin_make`
 
@@ -25,7 +17,6 @@
 /move_base/DWAPlannerROS/local_plan
 /move_base_simple/goal
 ```
-
 
 3) Указываем цель и смотрим, как робот едет
 
