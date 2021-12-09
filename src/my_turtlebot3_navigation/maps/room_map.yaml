@@ -1,4 +1,4 @@
-image: /home/helen/ros_projects/ROSLab_2.git/src/my_turtlebot3_slam/maps/room_map.pgm
+image: /home/helen/ros_projects/ROSLab_2.git/src/my_turtlebot3_navigation/maps/room_map.pgm
 resolution: 0.050000
 origin: [-10.000000, -10.000000, 0.000000]
 negate: 0
